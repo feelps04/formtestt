@@ -1,15 +1,15 @@
 import React from 'react';
-import '..css/css.css';
+import './css.css';
 
 function Title3() {
   return (
-    <div id="requisitos_Tecnicos2" class="section-title">
+    <div id="requisitos_Tecnicos2" >
       <h2>
         Requisitos Técnicos (Obrigatórios e Desejáveis)
       </h2>
-      <div>
+     
         <textarea id="requisitos" name="requisitos"></textarea>
-      </div>
+      
     </div>
   );
 }
